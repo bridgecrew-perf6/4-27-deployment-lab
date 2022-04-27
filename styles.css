@@ -1,0 +1,11 @@
+body {
+    background-color: aquamarine;
+}
+
+img {
+    width: 450px;
+    height: 400px;
+}
+button {
+    cursor: pointer;
+}
