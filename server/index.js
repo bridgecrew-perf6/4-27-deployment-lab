@@ -14,7 +14,7 @@ app.get('/css', (req, res) => {
   })
 
   app.get('/js', (req, res) => {
-    res.sendFile(path.join(__dirname, '../index.html'))
+    res.sendFile(path.join(__dirname, '../index.js'))
   })
 
 app.listen(port, () => {
